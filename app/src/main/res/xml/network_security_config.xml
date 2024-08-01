@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">crms.digicred.services</domain>
+        <domain includeSubdomains="true">controllers.digicred.services</domain>
+<!--        <domain includeSubdomains="true">ipAddress</domain>-->
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </domain-config>
+</network-security-config>
+
