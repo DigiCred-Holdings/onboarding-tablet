@@ -65,7 +65,7 @@ fun WebViewContent(modifier: Modifier = Modifier) {
                     }
                 }
               loadUrl("http://crms.digicred.services:5101/onboardingTablet")
-//                loadUrl("http://192.168.2.109:5173/onboardingTablet")
+//                loadUrl("http://ipAddress:5173/onboardingTablet")
             }
         },
         modifier = modifier.fillMaxSize()
